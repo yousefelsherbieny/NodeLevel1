@@ -1,15 +1,21 @@
 {
   "name": "nodelevel1",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "watch": "nodemon --ext *"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "connect-livereload": "^0.6.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "livereload": "^0.9.3",
+    "mongoose": "^8.9.3",
+    "nodemon": "^3.1.9"
   }
 }
